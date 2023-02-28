@@ -45,12 +45,12 @@ for i in range(0, len(daftar_buku)):
 print('\nBuku yang diambil:')
 print(buku)
 
-print('\nPop')
+print('\nPop:')
 daftar_buku.pop()
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
-print('\nPop -1')
+print('\nPop -1:')#pop yang paling belakang
 daftar_buku = ['Seven Habits', 'How to Influence People', 'First Things First', '4DX']
 daftar_buku.pop(-1)
 for i in range(0, len(daftar_buku)):
